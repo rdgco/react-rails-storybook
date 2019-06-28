@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example project that uses both react-rails gem as well as the storybook package in the same project.
 
-Things you may want to cover:
+There is one basic HelloWorld component and controller as would exist if you create a default react-rails project.
 
-* Ruby version
+To view the storybook view:
 
-* System dependencies
+yarn storybook
 
-* Configuration
+To view the rails app:
 
-* Database creation
+rails s
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
