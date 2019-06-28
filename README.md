@@ -1,14 +1,24 @@
 # README
 
-This is an example project that uses both react-rails gem as well as the storybook package in the same project.
+This is close to working, however I'm unable to get the webpack-dev-server running with the rails/webpacker. The storybook command does work with its own webpack configuration. 
 
-There is one basic HelloWorld component and controller as would exist if you create a default react-rails project.
+I've looked at and tried examples such as this:
+
+https://github.com/rails/webpacker/issues/1004
+
+https://storybook.js.org/docs/configurations/custom-webpack-config/
+
+and this one that uses older versions of packages:
+
+https://github.com/tai2/webpacker-react-example/tree/master/.storybook
 
 To view the storybook view:
 
-yarn storybook
+* yarn storybook
 
 To view the rails app:
 
-rails s
+* rails s
+
+The foreman step doesn't work yet.
 
